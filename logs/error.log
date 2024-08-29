@@ -1,0 +1,1324 @@
+2024-08-27 14:51:16 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2024-08-27 14:51:16 error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlite cannot be used due to a missing PHP extension or unmet dependency. Requested by connection "test" in /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Database/Connection.php on line 196
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Database/Connection.php:145
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:89
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:111
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:214
+- /home/harunur/my_app_name/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/harunur/my_app_name/vendor/cakephp/debug_kit/src/ToolbarService.php:224
+- /home/harunur/my_app_name/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/my_app_name/webroot/index.php:40
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-08-27 15:12:54 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2024-08-27 15:12:54 error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlite cannot be used due to a missing PHP extension or unmet dependency. Requested by connection "test" in /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Database/Connection.php on line 196
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Database/Connection.php:145
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:89
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:111
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:214
+- /home/harunur/my_app_name/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/harunur/my_app_name/vendor/cakephp/debug_kit/src/ToolbarService.php:224
+- /home/harunur/my_app_name/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/my_app_name/webroot/index.php:40
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-08-27 15:13:14 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2024-08-27 15:13:14 error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlite cannot be used due to a missing PHP extension or unmet dependency. Requested by connection "test" in /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Database/Connection.php on line 196
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Database/Connection.php:145
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:89
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:111
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:214
+- /home/harunur/my_app_name/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/harunur/my_app_name/vendor/cakephp/debug_kit/src/ToolbarService.php:224
+- /home/harunur/my_app_name/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/my_app_name/webroot/index.php:40
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-08-27 21:50:38 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests" in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php on line 526
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/ORM/Table.php:1568
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Controller/RequestsController.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /debug-kit/toolbar/fc6bfd7b-e19d-4735-a192-4387fc8e900f
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 21:50:40 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /css/style.css
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 21:50:40 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /css/metronic/plugins/global/plugins.bundle.css
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 21:50:41 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /css/metronic/style.bundle.css
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 21:50:41 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Js',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /js/metronic/plugins/global/plugins.bundle.js
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 21:50:41 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Js',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /js/metronic/scripts.bundle.js
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 21:50:41 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Js',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /js/metronic/custom/authentication/sign-in/general.js
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 21:50:41 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /img/media/misc/auth-bg.png
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 21:50:44 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /css/style.css
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 21:50:44 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /css/metronic/plugins/global/plugins.bundle.css
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 21:50:45 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /css/metronic/style.bundle.css
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 21:50:45 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Js',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /js/metronic/plugins/global/plugins.bundle.js
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 21:50:45 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Js',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /js/metronic/scripts.bundle.js
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 21:50:45 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Js',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /js/metronic/custom/authentication/sign-in/general.js
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 21:50:45 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /img/media/misc/auth-bg.png
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 22:03:46 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /img/images.jpg
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2024-08-27 22:03:46 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /img/media/misc/auth-bg.png
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 22:03:51 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /img/images.jpg
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2024-08-27 22:03:51 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /img/media/misc/auth-bg.png
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 22:30:49 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /img/images.jpg
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2024-08-27 22:32:02 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /img/images.jpg
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2024-08-27 22:33:11 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 396
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:172
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /Users/login
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 22:33:18 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 392
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:172
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /Users/login
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 22:38:01 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 392
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:172
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /Users/login
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2024-08-27 22:38:07 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /img/images.jpg
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2024-08-27 22:38:20 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /img/admin/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/companies/
+Client IP: 127.0.0.1
+2024-08-27 22:38:21 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /img/admin/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/companies/
+Client IP: 127.0.0.1
+2024-08-27 23:08:01 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2024-08-27 23:08:01 error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlite cannot be used due to a missing PHP extension or unmet dependency. Requested by connection "test" in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Database/Connection.php on line 196
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Database/Connection.php:145
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:89
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:111
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:214
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/ToolbarService.php:224
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /admin/reports/dependents
+Referer URL: http://localhost:8765/admin/reports/employee
+Client IP: 127.0.0.1
+2024-08-27 23:09:36 warning: Attempt to read property "company" on null
+Request URL: /admin/reports/send_recieve
+Referer URL: http://localhost:8765/admin/reports/dependents
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
+2024-08-27 23:09:36 warning: Attempt to read property "name" on null
+Request URL: /admin/reports/send_recieve
+Referer URL: http://localhost:8765/admin/reports/dependents
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
+2024-08-27 23:09:36 warning: Attempt to read property "name" on null
+Request URL: /admin/reports/send_recieve
+Referer URL: http://localhost:8765/admin/reports/dependents
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
+2024-08-27 23:09:36 warning: Attempt to read property "company" on null
+Request URL: /admin/reports/send_recieve
+Referer URL: http://localhost:8765/admin/reports/dependents
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
+2024-08-27 23:09:36 warning: Attempt to read property "name" on null
+Request URL: /admin/reports/send_recieve
+Referer URL: http://localhost:8765/admin/reports/dependents
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
+2024-08-27 23:09:36 warning: Attempt to read property "name" on null
+Request URL: /admin/reports/send_recieve
+Referer URL: http://localhost:8765/admin/reports/dependents
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
+2024-08-27 23:09:36 warning: Attempt to read property "company" on null
+Request URL: /admin/reports/send_recieve
+Referer URL: http://localhost:8765/admin/reports/dependents
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
+2024-08-27 23:09:36 warning: Attempt to read property "name" on null
+Request URL: /admin/reports/send_recieve
+Referer URL: http://localhost:8765/admin/reports/dependents
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
+2024-08-27 23:09:36 warning: Attempt to read property "name" on null
+Request URL: /admin/reports/send_recieve
+Referer URL: http://localhost:8765/admin/reports/dependents
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
+2024-08-27 23:09:36 warning: Attempt to read property "company" on null
+Request URL: /admin/reports/send_recieve
+Referer URL: http://localhost:8765/admin/reports/dependents
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
+2024-08-27 23:09:36 warning: Attempt to read property "name" on null
+Request URL: /admin/reports/send_recieve
+Referer URL: http://localhost:8765/admin/reports/dependents
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
+2024-08-27 23:09:36 warning: Attempt to read property "name" on null
+Request URL: /admin/reports/send_recieve
+Referer URL: http://localhost:8765/admin/reports/dependents
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
+2024-08-28 00:01:14 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php:40
+- [main]:
+
+Request URL: /img/images.jpg
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1

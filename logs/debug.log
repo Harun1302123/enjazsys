@@ -1,0 +1,262 @@
+2024-08-27 15:13:30 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+/home/harunur/my_app_name/templates/Pages/home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/my_app_name/vendor/cakephp/cakephp/src/Core/functions.php /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Core/functions.php, line 318
+/home/harunur/my_app_name/vendor/cakephp/cakephp/src/Database/Connection.php /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Database/Connection.php, line 323
+Cake\Database\Connection->connect() /home/harunur/my_app_name/templates/Pages/home.php, line 30
+Cake\View\View->{closure}() /home/harunur/my_app_name/templates/Pages/home.php, line 167
+/home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php /home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/my_app_name/src/Controller/PagesController.php, line 65
+App\Controller\PagesController->display() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/Controller.php, line 560
+Cake\Controller\Controller->invokeAction() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 166
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/my_app_name/webroot/index.php, line 40
+[main]
+
+2024-08-27 16:46:47 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+/home/harunur/my_app_name/templates/Pages/home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/my_app_name/vendor/cakephp/cakephp/src/Core/functions.php /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Core/functions.php, line 318
+/home/harunur/my_app_name/vendor/cakephp/cakephp/src/Database/Connection.php /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Database/Connection.php, line 323
+Cake\Database\Connection->connect() /home/harunur/my_app_name/templates/Pages/home.php, line 30
+Cake\View\View->{closure}() /home/harunur/my_app_name/templates/Pages/home.php, line 167
+/home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php /home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/my_app_name/src/Controller/PagesController.php, line 65
+App\Controller\PagesController->display() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/Controller.php, line 560
+Cake\Controller\Controller->invokeAction() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/my_app_name/webroot/index.php, line 40
+[main]
+
+2024-08-27 16:49:23 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+/home/harunur/my_app_name/templates/Pages/home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/my_app_name/vendor/cakephp/cakephp/src/Core/functions.php /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Core/functions.php, line 318
+/home/harunur/my_app_name/vendor/cakephp/cakephp/src/Database/Connection.php /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Database/Connection.php, line 323
+Cake\Database\Connection->connect() /home/harunur/my_app_name/templates/Pages/home.php, line 30
+Cake\View\View->{closure}() /home/harunur/my_app_name/templates/Pages/home.php, line 167
+/home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php /home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/my_app_name/src/Controller/PagesController.php, line 65
+App\Controller\PagesController->display() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/Controller.php, line 560
+Cake\Controller\Controller->invokeAction() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/my_app_name/webroot/index.php, line 40
+[main]
+
+2024-08-27 16:49:26 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+/home/harunur/my_app_name/templates/Pages/home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/my_app_name/vendor/cakephp/cakephp/src/Core/functions.php /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Core/functions.php, line 318
+/home/harunur/my_app_name/vendor/cakephp/cakephp/src/Database/Connection.php /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Database/Connection.php, line 323
+Cake\Database\Connection->connect() /home/harunur/my_app_name/templates/Pages/home.php, line 30
+Cake\View\View->{closure}() /home/harunur/my_app_name/templates/Pages/home.php, line 167
+/home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php /home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/my_app_name/src/Controller/PagesController.php, line 65
+App\Controller\PagesController->display() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/Controller.php, line 560
+Cake\Controller\Controller->invokeAction() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/my_app_name/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/my_app_name/webroot/index.php, line 40
+[main]
+
+2024-08-27 23:09:29 notice: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated
+Request URL: /admin/reports/dependents
+Referer URL: http://localhost:8765/admin/reports/employee
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/templates/element/admin/footer.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/templates/element/admin/footer.php, line 84
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1731
+Cake\View\View->_renderElement() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 701
+Cake\View\View->element() /home/harunur/Documents/Fiverr/Upwork/enjazsys/templates/layout/admin.php, line 116
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 862
+Cake\View\View->renderLayout() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 821
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
+2024-08-27 23:09:36 notice: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated
+Request URL: /admin/reports/send_recieve
+Referer URL: http://localhost:8765/admin/reports/dependents
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/templates/element/admin/footer.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/templates/element/admin/footer.php, line 84
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1731
+Cake\View\View->_renderElement() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 701
+Cake\View\View->element() /home/harunur/Documents/Fiverr/Upwork/enjazsys/templates/layout/admin.php, line 116
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 862
+Cake\View\View->renderLayout() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 821
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
+2024-08-27 23:10:21 notice: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated
+Request URL: /admin/reports/reminders
+Referer URL: http://localhost:8765/admin/reports/send_recieve
+Client IP: 127.0.0.1
+Trace:
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/templates/element/admin/footer.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/templates/element/admin/footer.php, line 84
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1731
+Cake\View\View->_renderElement() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 701
+Cake\View\View->element() /home/harunur/Documents/Fiverr/Upwork/enjazsys/templates/layout/admin.php, line 116
+/home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 862
+Cake\View\View->renderLayout() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/View/View.php, line 821
+Cake\View\View->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /home/harunur/Documents/Fiverr/Upwork/enjazsys/webroot/index.php, line 40
+[main]
+
